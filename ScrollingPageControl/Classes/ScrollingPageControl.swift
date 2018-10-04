@@ -49,12 +49,11 @@ open class ScrollingPageControl: UIView {
 			updatePositions()
 		}
 	}
+	open var slideDuration: TimeInterval = 0.15
 	private var centerOffset = 0
 	private var pageOffset = 0 {
 		didSet {
-			DispatchQueue.main.asyncAfter(deadline: .now()) {
-				UIView.animate(withDuration: 0.1, animations: self.updatePositions)
-			}
+			UIView.animate(withDuration: slideDuration, delay: 0.15, options: [], animations: self.updatePositions, completion: nil)
 		}
 	}
 	

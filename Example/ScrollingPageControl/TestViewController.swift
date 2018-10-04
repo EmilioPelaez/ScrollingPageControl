@@ -13,14 +13,13 @@ class TestViewController: UIViewController {
 	@IBOutlet var scrollView: UIScrollView!
 	let stackView = UIStackView()
 	
-	@IBOutlet var pageControl: ScrollingPageControl?
+	@IBOutlet var pageControl: ScrollingPageControl!
 	let pages: Int = 8
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		print(pageControl)
-		pageControl?.pages = pages
+		pageControl.pages = pages
 		
 		scrollView.isPagingEnabled = true
 		view.addSubview(scrollView)
@@ -52,6 +51,6 @@ class TestViewController: UIViewController {
 extension TestViewController: UIScrollViewDelegate {
 	func scrollViewDidScroll(_ scrollView: UIScrollView) {
 		let page = round(scrollView.contentOffset.x / scrollView.frame.width)
-		pageControl?.selectedPage = Int(page)
+		pageControl.selectedPage = Int(page)
 	}
 }

@@ -10,6 +10,16 @@ import UIKit
 class CircularView: UIView {
 	override func layoutSubviews() {
 		super.layoutSubviews()
-		layer.cornerRadius = min(frame.width, frame.height) / 2
+		updateCornerRadius()
+	}
+	
+	override var frame: CGRect {
+		didSet {
+			updateCornerRadius()
+		}
+	}
+	
+	private func updateCornerRadius() {
+		layer.cornerRadius = min(bounds.width, bounds.height) / 2
 	}
 }

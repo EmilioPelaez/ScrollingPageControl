@@ -123,8 +123,8 @@ open class ScrollingPageControl: UIView {
 				if distance > (maxDots / 2) { return 0 }
 				return [1, 0.66, 0.33, 0.16][max(0, min(3, distance - centerDots / 2))]
 			}()
+			dot.frame = CGRect(origin: .zero, size: CGSize(width: dotSize * scale, height: dotSize * scale))
 			dot.center = center
-			dot.transform = CGAffineTransform(scaleX: scale, y: scale)
 		}
 	}
 	

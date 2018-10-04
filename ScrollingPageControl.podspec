@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ScrollingPageControl'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ScrollingPageControl.'
+  s.summary          = 'A custom page control that shows a maximum number of dots and scrolls to reveal more.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ScrollingPageControl is a custom page control that shows a maximum number of dots and scrolls to reveal more.
+It's inspired by Instagram implementation of the page control.
                        DESC
 
   s.homepage         = 'https://github.com/EmilioPelaez/ScrollingPageControl'
@@ -26,17 +27,11 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'EmilioPelaez' => 'i.am@emiliopelaez.me' }
   s.source           = { :git => 'https://github.com/EmilioPelaez/ScrollingPageControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/EmilioPelaez'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ScrollingPageControl/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ScrollingPageControl' => ['ScrollingPageControl/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end

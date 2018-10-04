@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C8054D392165D87800EBFC97 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8054D382165D87800EBFC97 /* TriangleView.swift */; };
 		CE13036F2A44D43F8467A0E0 /* Pods_ScrollingPageControl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A326994D01F44C3DC976F023 /* Pods_ScrollingPageControl_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		8AF2C24E80BDE2DBC42D7542 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9EFB5D2EDC8E25FD45ED5322 /* ScrollingPageControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ScrollingPageControl.podspec; path = ../ScrollingPageControl.podspec; sourceTree = "<group>"; };
 		A326994D01F44C3DC976F023 /* Pods_ScrollingPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8054D382165D87800EBFC97 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		ED72E479A88FEED77610D931 /* Pods_ScrollingPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* TestViewController.swift */,
+				C8054D382165D87800EBFC97 /* TriangleView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* TestViewController.swift in Sources */,
+				C8054D392165D87800EBFC97 /* TriangleView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

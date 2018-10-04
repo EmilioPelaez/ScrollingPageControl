@@ -7,13 +7,28 @@
 
 import UIKit
 
+public protocol ScrollingPageControlDelegate: class {
+	func viewForDot(at index: Int) -> UIView?
+}
+
 open class ScrollingPageControl: UIView {
+	open weak var delegate: ScrollingPageControlDelegate? {
+		didSet {
+			createViews()
+		}
+	}
+	
 	open var pages: Int = 0 {
 		didSet {
 			guard pages != oldValue else { return }
 			pages = max(0, pages)
 			invalidateIntrinsicContentSize()
-			dotViews = (0..<pages).map { _ in CircularView(frame: CGRect(origin: .zero, size: CGSize(width: dotSize, height: dotSize))) }
+			createViews()
+		}
+	}
+	private func createViews() {
+		dotViews = (0..<pages).map { index in
+			delegate?.viewForDot(at: index) ?? CircularView(frame: CGRect(origin: .zero, size: CGSize(width: dotSize, height: dotSize)))
 		}
 	}
 	open var selectedPage: Int = 0 {

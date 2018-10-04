@@ -20,6 +20,7 @@ class TestViewController: UIViewController {
 		super.viewDidLoad()
 		
 		pageControl.pages = pages
+		pageControl.delegate = self
 		
 		scrollView.isPagingEnabled = true
 		view.addSubview(scrollView)
@@ -52,5 +53,14 @@ extension TestViewController: UIScrollViewDelegate {
 	func scrollViewDidScroll(_ scrollView: UIScrollView) {
 		let page = round(scrollView.contentOffset.x / scrollView.frame.width)
 		pageControl.selectedPage = Int(page)
+	}
+}
+
+extension TestViewController: ScrollingPageControlDelegate {
+	func viewForDot(at index: Int) -> UIView? {
+		guard index == 0 else { return nil }
+		let view = TriangleView()
+		view.isOpaque = false
+		return view
 	}
 }

@@ -8,6 +8,8 @@
 import UIKit
 
 public protocol ScrollingPageControlDelegate: class {
+	//	If delegate is nil or the implementation returns nil for a given dot, the default
+	//	circle will be used. Returned views should react to having their tint color changed
 	func viewForDot(at index: Int) -> UIView?
 }
 
@@ -17,7 +19,7 @@ open class ScrollingPageControl: UIView {
 			createViews()
 		}
 	}
-	
+	//	The number of dots
 	open var pages: Int = 0 {
 		didSet {
 			guard pages != oldValue else { return }
@@ -31,10 +33,11 @@ open class ScrollingPageControl: UIView {
 			delegate?.viewForDot(at: index) ?? CircularView(frame: CGRect(origin: .zero, size: CGSize(width: dotSize, height: dotSize)))
 		}
 	}
+	//	The index of the currently selected page
 	open var selectedPage: Int = 0 {
 		didSet {
 			guard selectedPage != oldValue else { return }
-			selectedPage = max(0, min (pages, selectedPage))
+			selectedPage = max(0, min (selectedPage, pages - 1))
 			updateColors()
 			if (0..<centerDots).contains(selectedPage - pageOffset) {
 				centerOffset = selectedPage - pageOffset
@@ -43,6 +46,7 @@ open class ScrollingPageControl: UIView {
 			}
 		}
 	}
+	//	The maximum number of dots that will show in the control
 	open var maxDots = 7 {
 		didSet {
 			maxDots = max(3, maxDots)
@@ -54,6 +58,7 @@ open class ScrollingPageControl: UIView {
 			updatePositions()
 		}
 	}
+	//	The number of dots that will be centered and full-sized
 	open var centerDots = 3 {
 		didSet {
 			centerDots = max(1, centerDots)
@@ -64,6 +69,7 @@ open class ScrollingPageControl: UIView {
 			updatePositions()
 		}
 	}
+	//	The duration, in seconds, of the dot slide animation
 	open var slideDuration: TimeInterval = 0.15
 	private var centerOffset = 0
 	private var pageOffset = 0 {
@@ -81,9 +87,12 @@ open class ScrollingPageControl: UIView {
 		}
 	}
 	
+	//	The color of all the unselected dots
 	open var dotColor = UIColor.lightGray { didSet { updateColors() } }
+	//	The color of the currently selected dot
 	open var selectedColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1) { didSet { updateColors() } }
 	
+	//	The size of the dots
 	open var dotSize: CGFloat = 6 {
 		didSet {
 			dotSize = max(1, dotSize)
@@ -91,6 +100,7 @@ open class ScrollingPageControl: UIView {
 			updatePositions()
 		}
 	}
+	//	The space between dots
 	open var spacing: CGFloat = 4 {
 		didSet {
 			spacing = max(1, spacing)

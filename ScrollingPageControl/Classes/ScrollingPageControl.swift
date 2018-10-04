@@ -108,7 +108,7 @@ open class ScrollingPageControl: UIView {
 	
 	private func updateColors() {
 		dotViews.enumerated().forEach { page, dot in
-			dot.backgroundColor = page == selectedPage ? selectedColor : dotColor
+			dot.tintColor = page == selectedPage ? selectedColor : dotColor
 		}
 	}
 	

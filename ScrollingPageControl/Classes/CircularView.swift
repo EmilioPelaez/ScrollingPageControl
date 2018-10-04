@@ -8,6 +8,10 @@
 import UIKit
 
 class CircularView: UIView {
+	override func tintColorDidChange() {
+		self.backgroundColor = tintColor
+	}
+	
 	override func layoutSubviews() {
 		super.layoutSubviews()
 		updateCornerRadius()

@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A013859A674C797E0A28ADB44E34068 /* ScrollingPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E070DEF392FF136189CF82FB9A083 /* ScrollingPageControl.swift */; };
 		0C2D104F72AA73C0E4D105BB7C013DBE /* Pods-ScrollingPageControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554FACB77BD03A9FB55264395D89B2D0 /* Pods-ScrollingPageControl_Example-dummy.m */; };
+		0D23090D24DD9E656EC89C5EC974BF83 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A0BE6180BDF6EB01FE30028F3B7085 /* CircularView.swift */; };
 		22AC5C2348FB08C2322A05CE4C842ED2 /* Pods-ScrollingPageControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 772F883D671EBB356E17998F6FA26E24 /* Pods-ScrollingPageControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		549BEA1B85E09B6D838D19CE68E037E5 /* ScrollingPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF79466FDBF5C7C63F579105A98EFD2 /* ScrollingPageControl-dummy.m */; };
 		6E5A4032941FA61D5772C34586BB231A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		76AD708D194434EFCC40027605DDF663 /* ScrollingPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA09F0BCFC53D42EC075486FA2E410 /* ScrollingPageControl-dummy.m */; };
 		7F6995FF1764E0E4FA687EDC4D31D12E /* Pods-ScrollingPageControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C93C3AABF77404C99E4F38829FFE183 /* Pods-ScrollingPageControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8963BE8A00ECF831EDD9150DC96B9F9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8DE2666463F30BA4943166B256BF5DC2 /* Pods-ScrollingPageControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F826279C982B7E3DD931983DEFFE15FB /* Pods-ScrollingPageControl_Tests-dummy.m */; };
-		AC9780327FE2E9A252FAFFAC5D810953 /* ScrollingPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F264A1916CA72F2351DF82B5C9EDE17B /* ScrollingPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8054D352165CBCD00EBFC97 /* ScrollingPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8054D342165CBCD00EBFC97 /* ScrollingPageControl.swift */; };
-		C8054D372165CC1800EBFC97 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8054D362165CC1800EBFC97 /* CircularView.swift */; };
+		AC9780327FE2E9A252FAFFAC5D810953 /* ScrollingPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE11D76EB65D2822D59B73679B49B04 /* ScrollingPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED552809CC044E50AA9488184FB8D469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,37 +39,37 @@
 
 /* Begin PBXFileReference section */
 		01EA704AD5EFCF85F77DBC17C4A8C12C /* Pods-ScrollingPageControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollingPageControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		02C751373A795CB8678B7A43C24957E4 /* ScrollingPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollingPageControl.xcconfig; sourceTree = "<group>"; };
 		05AB7DEB34E8A5B6F7684B1A68E9606F /* Pods-ScrollingPageControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollingPageControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		075F477BD656C09E5A49F972D1E07023 /* ScrollingPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollingPageControl.xcconfig; sourceTree = "<group>"; };
 		0C93C3AABF77404C99E4F38829FFE183 /* Pods-ScrollingPageControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollingPageControl_Tests-umbrella.h"; sourceTree = "<group>"; };
-		15F37D94ABF89DEDF47898C8FE21EDC6 /* ScrollingPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollingPageControl.modulemap; sourceTree = "<group>"; };
+		0FFC75C9DA53A34794185FCFC483FE88 /* ScrollingPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-prefix.pch"; sourceTree = "<group>"; };
 		183A9B71265DB4DB127E7504D2B1D5D0 /* Pods-ScrollingPageControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Tests-Info.plist"; sourceTree = "<group>"; };
+		1EF79466FDBF5C7C63F579105A98EFD2 /* ScrollingPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollingPageControl-dummy.m"; sourceTree = "<group>"; };
+		1FE696AEFB906FEC36B2D35A813EAFF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		31CAD18228713E74F56D130F2B6A6A77 /* Pods-ScrollingPageControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C073C21196E605AB1C9AD99DE61A9B1 /* Pods-ScrollingPageControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Example-Info.plist"; sourceTree = "<group>"; };
-		490BD583B7CB34E2671F95BF8A4B14A5 /* ScrollingPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ScrollingPageControl.podspec; sourceTree = "<group>"; };
 		554FACB77BD03A9FB55264395D89B2D0 /* Pods-ScrollingPageControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollingPageControl_Example-dummy.m"; sourceTree = "<group>"; };
 		56002EDA7FFD824A2BD4C5638C2B9531 /* Pods-ScrollingPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		635E070DEF392FF136189CF82FB9A083 /* ScrollingPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingPageControl.swift; path = ScrollingPageControl/Classes/ScrollingPageControl.swift; sourceTree = "<group>"; };
+		6A0AC5B4F16A209499EA6AE39312256F /* ScrollingPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ScrollingPageControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		772F883D671EBB356E17998F6FA26E24 /* Pods-ScrollingPageControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollingPageControl_Example-umbrella.h"; sourceTree = "<group>"; };
-		86ACA78A25ADB0EB50A8F05F85A4E5B0 /* Pods_ScrollingPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90EA09F0BCFC53D42EC075486FA2E410 /* ScrollingPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollingPageControl-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86ACA78A25ADB0EB50A8F05F85A4E5B0 /* Pods_ScrollingPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollingPageControl_Example.framework; path = "Pods-ScrollingPageControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98018FBFB5D9A07F7422794EEFCF77E6 /* Pods-ScrollingPageControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B6AA1ED7BF643BA7DEBA3C81A578207 /* Pods-ScrollingPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A14D06CE42D733107E8E7C3492DA57C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A2A0BE6180BDF6EB01FE30028F3B7085 /* CircularView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularView.swift; path = ScrollingPageControl/Classes/CircularView.swift; sourceTree = "<group>"; };
 		ADD41251A175F2D6D77F5C10910FB6F5 /* Pods-ScrollingPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollingPageControl_Example.modulemap"; sourceTree = "<group>"; };
 		B26882CD22AF43430BECAAF57E514522 /* Pods-ScrollingPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B84737280FA113DE07ECFD669FD3FF04 /* ScrollingPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScrollingPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8054D342165CBCD00EBFC97 /* ScrollingPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScrollingPageControl.swift; path = ScrollingPageControl/Classes/ScrollingPageControl.swift; sourceTree = "<group>"; };
-		C8054D362165CC1800EBFC97 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularView.swift; path = ScrollingPageControl/Classes/CircularView.swift; sourceTree = "<group>"; };
-		D58DC9DD54A12ACF09F951B5795558B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		DB8D4315D8C8A3825DDF9A1CFBC10BDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B84737280FA113DE07ECFD669FD3FF04 /* ScrollingPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollingPageControl.framework; path = ScrollingPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C266BDB88DB03130BFFB001B0A1AD485 /* ScrollingPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollingPageControl-Info.plist"; sourceTree = "<group>"; };
+		CB72A5A1FFFB255B998E82C662AA6BE8 /* ScrollingPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollingPageControl.modulemap; sourceTree = "<group>"; };
+		CCE11D76EB65D2822D59B73679B49B04 /* ScrollingPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-umbrella.h"; sourceTree = "<group>"; };
 		E4417EAAC7DDE4187A932CA9D1D6645A /* Pods-ScrollingPageControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollingPageControl_Tests.modulemap"; sourceTree = "<group>"; };
 		E5057647206034701691A7C34BFA78A5 /* Pods-ScrollingPageControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollingPageControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E7527F2EE974125F7F1AE1C75EB49207 /* ScrollingPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollingPageControl-Info.plist"; sourceTree = "<group>"; };
-		EB0C3E6BB64E03117931B9A501A78146 /* Pods_ScrollingPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0C3E6BB64E03117931B9A501A78146 /* Pods_ScrollingPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollingPageControl_Tests.framework; path = "Pods-ScrollingPageControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6D394F4DD43DA1546387695A486A9F /* Pods-ScrollingPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F20C3A6B7DF045721E46A3ABBBA7CA0C /* ScrollingPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-prefix.pch"; sourceTree = "<group>"; };
-		F264A1916CA72F2351DF82B5C9EDE17B /* ScrollingPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-umbrella.h"; sourceTree = "<group>"; };
 		F826279C982B7E3DD931983DEFFE15FB /* Pods-ScrollingPageControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollingPageControl_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,30 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38B51EC087A7CBB34A7E055002C0FEA7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D58DC9DD54A12ACF09F951B5795558B3 /* LICENSE */,
-				DB8D4315D8C8A3825DDF9A1CFBC10BDE /* README.md */,
-				490BD583B7CB34E2671F95BF8A4B14A5 /* ScrollingPageControl.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4903189A99414D9B1047F560FFC6D4CB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				15F37D94ABF89DEDF47898C8FE21EDC6 /* ScrollingPageControl.modulemap */,
-				02C751373A795CB8678B7A43C24957E4 /* ScrollingPageControl.xcconfig */,
-				90EA09F0BCFC53D42EC075486FA2E410 /* ScrollingPageControl-dummy.m */,
-				E7527F2EE974125F7F1AE1C75EB49207 /* ScrollingPageControl-Info.plist */,
-				F20C3A6B7DF045721E46A3ABBBA7CA0C /* ScrollingPageControl-prefix.pch */,
-				F264A1916CA72F2351DF82B5C9EDE17B /* ScrollingPageControl-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ScrollingPageControl";
-			sourceTree = "<group>";
-		};
 		4E5BF039029E11A816F2D83CC3144816 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,23 +135,37 @@
 			path = "Target Support Files/Pods-ScrollingPageControl_Tests";
 			sourceTree = "<group>";
 		};
+		7A1CA4BD56AFDD2338D985AD223CD9E1 /* ScrollingPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				A2A0BE6180BDF6EB01FE30028F3B7085 /* CircularView.swift */,
+				635E070DEF392FF136189CF82FB9A083 /* ScrollingPageControl.swift */,
+				8CA80D1101E085756EF6E6AC6820CE33 /* Pod */,
+				BF98F688EBD6C790BB253C22B4847763 /* Support Files */,
+			);
+			name = ScrollingPageControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9417A52A6AD1777B4ABD976C8982A8E6 /* Development Pods */,
+				E1DE1FABB615F6A4605224CF40AC1287 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				4E5BF039029E11A816F2D83CC3144816 /* Products */,
 				F32A9D17E76BE7CB9F06A01FE7FAFA04 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9417A52A6AD1777B4ABD976C8982A8E6 /* Development Pods */ = {
+		8CA80D1101E085756EF6E6AC6820CE33 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B3704E4D0D6A4935F0D5639D2EB3A89C /* ScrollingPageControl */,
+				1FE696AEFB906FEC36B2D35A813EAFF3 /* LICENSE */,
+				A14D06CE42D733107E8E7C3492DA57C0 /* README.md */,
+				6A0AC5B4F16A209499EA6AE39312256F /* ScrollingPageControl.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		AD5D1B1AE2A5858843ED6F619925C46D /* Pods-ScrollingPageControl_Example */ = {
@@ -195,24 +185,34 @@
 			path = "Target Support Files/Pods-ScrollingPageControl_Example";
 			sourceTree = "<group>";
 		};
-		B3704E4D0D6A4935F0D5639D2EB3A89C /* ScrollingPageControl */ = {
-			isa = PBXGroup;
-			children = (
-				C8054D342165CBCD00EBFC97 /* ScrollingPageControl.swift */,
-				C8054D362165CC1800EBFC97 /* CircularView.swift */,
-				38B51EC087A7CBB34A7E055002C0FEA7 /* Pod */,
-				4903189A99414D9B1047F560FFC6D4CB /* Support Files */,
-			);
-			name = ScrollingPageControl;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF98F688EBD6C790BB253C22B4847763 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB72A5A1FFFB255B998E82C662AA6BE8 /* ScrollingPageControl.modulemap */,
+				075F477BD656C09E5A49F972D1E07023 /* ScrollingPageControl.xcconfig */,
+				1EF79466FDBF5C7C63F579105A98EFD2 /* ScrollingPageControl-dummy.m */,
+				C266BDB88DB03130BFFB001B0A1AD485 /* ScrollingPageControl-Info.plist */,
+				0FFC75C9DA53A34794185FCFC483FE88 /* ScrollingPageControl-prefix.pch */,
+				CCE11D76EB65D2822D59B73679B49B04 /* ScrollingPageControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScrollingPageControl";
+			sourceTree = "<group>";
+		};
+		E1DE1FABB615F6A4605224CF40AC1287 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A1CA4BD56AFDD2338D985AD223CD9E1 /* ScrollingPageControl */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F32A9D17E76BE7CB9F06A01FE7FAFA04 /* Targets Support Files */ = {
@@ -297,7 +297,7 @@
 			buildConfigurationList = 0CEA0BC429E435599EA26BDEC7F28F97 /* Build configuration list for PBXNativeTarget "ScrollingPageControl" */;
 			buildPhases = (
 				46E5E2DECB4D4EEA7617109475259A85 /* Headers */,
-				854E273776610D7B2820F0B617D626B8 /* Sources */,
+				AD3F5968A990AAF2AC73DA0633C6EE20 /* Sources */,
 				2DD7DFBAAA224D568AD76CC3CB5A9968 /* Frameworks */,
 				A61AF7F47388C28900657C2DD41981FB /* Resources */,
 			);
@@ -317,12 +317,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1000;
-				TargetAttributes = {
-					F0A9CED3D81CD5097ACBD05662354157 = {
-						LastSwiftMigration = 1000;
-					};
-				};
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,13 +379,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		854E273776610D7B2820F0B617D626B8 /* Sources */ = {
+		AD3F5968A990AAF2AC73DA0633C6EE20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8054D372165CC1800EBFC97 /* CircularView.swift in Sources */,
-				C8054D352165CBCD00EBFC97 /* ScrollingPageControl.swift in Sources */,
-				76AD708D194434EFCC40027605DDF663 /* ScrollingPageControl-dummy.m in Sources */,
+				0D23090D24DD9E656EC89C5EC974BF83 /* CircularView.swift in Sources */,
+				549BEA1B85E09B6D838D19CE68E037E5 /* ScrollingPageControl-dummy.m in Sources */,
+				0A013859A674C797E0A28ADB44E34068 /* ScrollingPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,39 +434,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4158F4C32322D388B55D469460368207 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02C751373A795CB8678B7A43C24957E4 /* ScrollingPageControl.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScrollingPageControl/ScrollingPageControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScrollingPageControl/ScrollingPageControl-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ScrollingPageControl/ScrollingPageControl.modulemap";
-				PRODUCT_MODULE_NAME = ScrollingPageControl;
-				PRODUCT_NAME = ScrollingPageControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -567,42 +529,9 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		8048017D79D27AFA5CB02499AD3D607E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02C751373A795CB8678B7A43C24957E4 /* ScrollingPageControl.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScrollingPageControl/ScrollingPageControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScrollingPageControl/ScrollingPageControl-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ScrollingPageControl/ScrollingPageControl.modulemap";
-				PRODUCT_MODULE_NAME = ScrollingPageControl;
-				PRODUCT_NAME = ScrollingPageControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		851E07F95E16F908BBF85FF4A1E0470E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -631,7 +560,42 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EF59692C5963E1271578B06D0D23A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075F477BD656C09E5A49F972D1E07023 /* ScrollingPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollingPageControl/ScrollingPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollingPageControl/ScrollingPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollingPageControl/ScrollingPageControl.modulemap";
+				PRODUCT_MODULE_NAME = ScrollingPageControl;
+				PRODUCT_NAME = ScrollingPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -738,14 +702,46 @@
 			};
 			name = Debug;
 		};
+		DE16472217AD71E89A17D056A693D397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075F477BD656C09E5A49F972D1E07023 /* ScrollingPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollingPageControl/ScrollingPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollingPageControl/ScrollingPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScrollingPageControl/ScrollingPageControl.modulemap";
+				PRODUCT_MODULE_NAME = ScrollingPageControl;
+				PRODUCT_NAME = ScrollingPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0CEA0BC429E435599EA26BDEC7F28F97 /* Build configuration list for PBXNativeTarget "ScrollingPageControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8048017D79D27AFA5CB02499AD3D607E /* Debug */,
-				4158F4C32322D388B55D469460368207 /* Release */,
+				DE16472217AD71E89A17D056A693D397 /* Debug */,
+				8EF59692C5963E1271578B06D0D23A69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

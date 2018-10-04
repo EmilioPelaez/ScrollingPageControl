@@ -1,0 +1,6 @@
+framework module ScrollingPageControl {
+  umbrella header "ScrollingPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ScrollingPageControl_Example' do
+  pod 'ScrollingPageControl', :path => '../'
+
+  target 'ScrollingPageControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -15,7 +15,8 @@
 		8963BE8A00ECF831EDD9150DC96B9F9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8DE2666463F30BA4943166B256BF5DC2 /* Pods-ScrollingPageControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F826279C982B7E3DD931983DEFFE15FB /* Pods-ScrollingPageControl_Tests-dummy.m */; };
 		AC9780327FE2E9A252FAFFAC5D810953 /* ScrollingPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F264A1916CA72F2351DF82B5C9EDE17B /* ScrollingPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3D608E846FF108FC926406C8264B6F8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEBF4C95EA84C1458852EFCB260E656 /* ReplaceMe.swift */; };
+		C8054D352165CBCD00EBFC97 /* ScrollingPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8054D342165CBCD00EBFC97 /* ScrollingPageControl.swift */; };
+		C8054D372165CC1800EBFC97 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8054D362165CC1800EBFC97 /* CircularView.swift */; };
 		ED552809CC044E50AA9488184FB8D469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +45,6 @@
 		15F37D94ABF89DEDF47898C8FE21EDC6 /* ScrollingPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollingPageControl.modulemap; sourceTree = "<group>"; };
 		183A9B71265DB4DB127E7504D2B1D5D0 /* Pods-ScrollingPageControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Tests-Info.plist"; sourceTree = "<group>"; };
 		31CAD18228713E74F56D130F2B6A6A77 /* Pods-ScrollingPageControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3AEBF4C95EA84C1458852EFCB260E656 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ScrollingPageControl/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3C073C21196E605AB1C9AD99DE61A9B1 /* Pods-ScrollingPageControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Example-Info.plist"; sourceTree = "<group>"; };
 		490BD583B7CB34E2671F95BF8A4B14A5 /* ScrollingPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ScrollingPageControl.podspec; sourceTree = "<group>"; };
 		554FACB77BD03A9FB55264395D89B2D0 /* Pods-ScrollingPageControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollingPageControl_Example-dummy.m"; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		ADD41251A175F2D6D77F5C10910FB6F5 /* Pods-ScrollingPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollingPageControl_Example.modulemap"; sourceTree = "<group>"; };
 		B26882CD22AF43430BECAAF57E514522 /* Pods-ScrollingPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B84737280FA113DE07ECFD669FD3FF04 /* ScrollingPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScrollingPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8054D342165CBCD00EBFC97 /* ScrollingPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScrollingPageControl.swift; path = ScrollingPageControl/Classes/ScrollingPageControl.swift; sourceTree = "<group>"; };
+		C8054D362165CC1800EBFC97 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularView.swift; path = ScrollingPageControl/Classes/CircularView.swift; sourceTree = "<group>"; };
 		D58DC9DD54A12ACF09F951B5795558B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DB8D4315D8C8A3825DDF9A1CFBC10BDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4417EAAC7DDE4187A932CA9D1D6645A /* Pods-ScrollingPageControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollingPageControl_Tests.modulemap"; sourceTree = "<group>"; };
@@ -196,7 +198,8 @@
 		B3704E4D0D6A4935F0D5639D2EB3A89C /* ScrollingPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				3AEBF4C95EA84C1458852EFCB260E656 /* ReplaceMe.swift */,
+				C8054D342165CBCD00EBFC97 /* ScrollingPageControl.swift */,
+				C8054D362165CC1800EBFC97 /* CircularView.swift */,
 				38B51EC087A7CBB34A7E055002C0FEA7 /* Pod */,
 				4903189A99414D9B1047F560FFC6D4CB /* Support Files */,
 			);
@@ -380,7 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D608E846FF108FC926406C8264B6F8 /* ReplaceMe.swift in Sources */,
+				C8054D372165CC1800EBFC97 /* CircularView.swift in Sources */,
+				C8054D352165CBCD00EBFC97 /* ScrollingPageControl.swift in Sources */,
 				76AD708D194434EFCC40027605DDF663 /* ScrollingPageControl-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

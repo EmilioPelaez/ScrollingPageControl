@@ -7,8 +7,8 @@
 
 import UIKit
 
-class PageControl: UIView {
-	var pages: Int = 0 {
+open class ScrollingPageControl: UIView {
+	open var pages: Int = 0 {
 		didSet {
 			guard pages != oldValue else { return }
 			pages = max(0, pages)
@@ -16,7 +16,7 @@ class PageControl: UIView {
 			dotViews = (0..<pages).map { _ in CircularView(frame: CGRect(origin: .zero, size: CGSize(width: dotSize, height: dotSize))) }
 		}
 	}
-	var selectedPage: Int = 0 {
+	open var selectedPage: Int = 0 {
 		didSet {
 			guard selectedPage != oldValue else { return }
 			selectedPage = max(0, min (pages, selectedPage))
@@ -28,7 +28,7 @@ class PageControl: UIView {
 			}
 		}
 	}
-	var maxDots = 7 {
+	open var maxDots = 7 {
 		didSet {
 			maxDots = max(3, maxDots)
 			if maxDots % 2 == 0 {
@@ -39,7 +39,7 @@ class PageControl: UIView {
 			updatePositions()
 		}
 	}
-	var centerDots = 3 {
+	open var centerDots = 3 {
 		didSet {
 			centerDots = max(1, centerDots)
 			if centerDots % 2 == 0 {
@@ -67,39 +67,39 @@ class PageControl: UIView {
 		}
 	}
 	
-	var dotColor = UIColor.lightGray { didSet { updateColors() } }
-	var selectedColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1) { didSet { updateColors() } }
+	open var dotColor = UIColor.lightGray { didSet { updateColors() } }
+	open var selectedColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1) { didSet { updateColors() } }
 	
-	var dotSize: CGFloat = 6 {
+	open var dotSize: CGFloat = 6 {
 		didSet {
 			dotSize = max(1, dotSize)
 			dotViews.forEach { $0.frame = CGRect(origin: .zero, size: CGSize(width: dotSize, height: dotSize)) }
 			updatePositions()
 		}
 	}
-	var spacing: CGFloat = 4 {
+	open var spacing: CGFloat = 4 {
 		didSet {
 			spacing = max(1, spacing)
 			updatePositions()
 		}
 	}
 	
-	init() {
+	public init() {
 		super.init(frame: .zero)
 		isOpaque = false
 	}
 	
-	required init?(coder aDecoder: NSCoder) {
+	public required init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
 	}
 	
-	override init(frame: CGRect) {
+	public override init(frame: CGRect) {
 		super.init(frame: frame)
 		isOpaque = false
 	}
 	
 	private var lastSize = CGSize.zero
-	override func layoutSubviews() {
+	open override func layoutSubviews() {
 		super.layoutSubviews()
 		guard bounds.size != lastSize else { return }
 		lastSize = bounds.size
@@ -128,7 +128,7 @@ class PageControl: UIView {
 		}
 	}
 	
-	override var intrinsicContentSize: CGSize {
+	open override var intrinsicContentSize: CGSize {
 		let pages = min(maxDots, self.pages)
 		let width = CGFloat(pages) * dotSize + CGFloat(pages - 1) * spacing
 		let height = dotSize

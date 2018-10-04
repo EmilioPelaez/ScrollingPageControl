@@ -20,7 +20,7 @@ class TestViewController: UIViewController {
 		super.viewDidLoad()
 		
 		pageControl.pages = pages
-		pageControl.delegate = self
+		//pageControl.delegate = self
 		
 		scrollView.isPagingEnabled = true
 		view.addSubview(scrollView)

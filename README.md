@@ -10,6 +10,21 @@ The maximum number of dots, as well as the number of central dots, can be custom
 
 Other customizable values are the color of the selected and highlighted dots, the size of the dots, and the space between the dots.
 
+### Usage
+
+To use the `ScrollingPageControl`, add it to your view hierarchy using Interface Builder or with code, it's recommended that you don't set width and height constraints, since the control can size itself. If you're using Interface Builder you can set a placeholder for `Intrinsc Content Size`.
+
+The easiest way to set it up is to use a `UIScrollView` with `isPagingEnabled` set to `true`. Set `pages` to the number of pages in your scroll view, and then implement this method of `UIScrollViewDelegate` like this:
+
+```swift
+func scrollViewDidScroll(_ scrollView: UIScrollView) {
+	let page = round(scrollView.contentOffset.x / scrollView.frame.width)
+	pageControl.selectedPage = Int(page)
+}
+```
+
+Make sure you set your object as the `delegate` of your scroll view.
+
 ### Custom dot
 
 The control uses a `UIView` for each dot. By default, this view will be a simple circular view, but you can provide your own views by conforming to the `ScrollingPageControlDelegate` protocol and implementing `func viewForDot(at index: Int) -> UIView?`. If that function returns `nil`, the default circle dot will be used.

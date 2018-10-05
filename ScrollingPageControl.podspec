@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScrollingPageControl'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A custom page control that shows a maximum number of dots and scrolls to reveal more.'
 
 # This description is used to generate tags and improve search results.

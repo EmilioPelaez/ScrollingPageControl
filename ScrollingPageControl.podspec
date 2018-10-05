@@ -34,4 +34,6 @@ It's inspired by Instagram implementation of the page control.
   s.source_files = 'ScrollingPageControl/Classes/**/*'
 
   s.frameworks = 'UIKit'
+
+  s.swift_version = '4.2'
 end

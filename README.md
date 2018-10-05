@@ -1,5 +1,7 @@
 # ScrollingPageControl
 
+![](https://media.giphy.com/media/XZMQhuKAtfxf6NffKj/giphy.gif)
+
 ScrollingPageControl is a custom page control inspired by Instagram's page control.
 
 By default it shows up to seven dots, with dots farther from the center dot being smaller, and scrolls the dots as the user changes pages, always keeping the highlighted dot within the central dots.

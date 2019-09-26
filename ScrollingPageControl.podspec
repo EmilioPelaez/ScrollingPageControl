@@ -35,5 +35,5 @@ It's inspired by Instagram implementation of the page control.
 
   s.frameworks = 'UIKit'
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.1'
 end

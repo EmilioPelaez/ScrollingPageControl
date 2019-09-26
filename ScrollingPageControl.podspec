@@ -31,7 +31,7 @@ It's inspired by Instagram implementation of the page control.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ScrollingPageControl/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
 
   s.frameworks = 'UIKit'
 

@@ -1,8 +1,8 @@
 {
   "name": "ScrollingPageControl",
-  "version": "0.1.0",
-  "summary": "A short description of ScrollingPageControl.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "A custom page control that shows a maximum number of dots and scrolls to reveal more.",
+  "description": "ScrollingPageControl is a custom page control that shows a maximum number of dots and scrolls to reveal more.\nIt's inspired by Instagram implementation of the page control.",
   "homepage": "https://github.com/EmilioPelaez/ScrollingPageControl",
   "license": {
     "type": "MIT",
@@ -13,10 +13,14 @@
   },
   "source": {
     "git": "https://github.com/EmilioPelaez/ScrollingPageControl.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
+  "social_media_url": "https://twitter.com/EmilioPelaez",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "ScrollingPageControl/Classes/**/*"
+  "source_files": "Sources/**/*.swift",
+  "frameworks": "UIKit",
+  "swift_versions": "5.1",
+  "swift_version": "5.1"
 }

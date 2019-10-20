@@ -1,5 +1,5 @@
 PODS:
-  - ScrollingPageControl (0.1.0)
+  - ScrollingPageControl (0.1.1)
 
 DEPENDENCIES:
   - ScrollingPageControl (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ScrollingPageControl: 141db2b32502967d8c8cc96cc99e6a7b831c73d9
+  ScrollingPageControl: 94a04b9a56c05f51c6454cca31bcecd0603a70fd
 
-PODFILE CHECKSUM: 1f97864d9d0b19e023e7886ca9ecf3c3de0579f3
+PODFILE CHECKSUM: 4a14006f3ae58dc8b4e6f5a708c3d7f306f9c2e0
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.7.5

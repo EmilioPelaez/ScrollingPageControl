@@ -52,18 +52,18 @@
 		507D8BA4FF2C24DA6B22343C6D598595 /* Pods-ScrollingPageControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A145551DF78C1CC76B04FF6089C65E3 /* Pods-ScrollingPageControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollingPageControl_Example-umbrella.h"; sourceTree = "<group>"; };
 		5C3D3F8997A25C5CE6A234FF1B590DAF /* Pods-ScrollingPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5CDDD25A6E60A440873F3C5AD3CB0824 /* Pods_ScrollingPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollingPageControl_Example.framework; path = "Pods-ScrollingPageControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDDD25A6E60A440873F3C5AD3CB0824 /* Pods_ScrollingPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B906526FC5C82C5E4F1E698408CB94 /* Pods-ScrollingPageControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F958D4D9121102A8EDBD4B74883151A /* ScrollingPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-umbrella.h"; sourceTree = "<group>"; };
-		7518634293F71801B0ADB32483FBE6DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7518634293F71801B0ADB32483FBE6DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		75EF42B93CA3343CC17E8136E982C57A /* ScrollingPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-prefix.pch"; sourceTree = "<group>"; };
-		7B652CDF0EE383423B23180487C12230 /* ScrollingPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollingPageControl.framework; path = ScrollingPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C571545962C37E3F4F3A9B91C8DAE12 /* ScrollingPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScrollingPageControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		886E423E23C349DF0D2D1897C9301378 /* Pods_ScrollingPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScrollingPageControl_Tests.framework; path = "Pods-ScrollingPageControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B652CDF0EE383423B23180487C12230 /* ScrollingPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScrollingPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C571545962C37E3F4F3A9B91C8DAE12 /* ScrollingPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ScrollingPageControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		886E423E23C349DF0D2D1897C9301378 /* Pods_ScrollingPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90000AC4BE0DD8EE981B0B93F7A100E4 /* Pods-ScrollingPageControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollingPageControl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		90D8877096D2E6F16CD905CF4040AEA8 /* Pods-ScrollingPageControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Tests-Info.plist"; sourceTree = "<group>"; };
 		969D16629E10774057240949610DFD5A /* Pods-ScrollingPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollingPageControl_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0B7957286E6D5F375725A72FB7E4CF /* ScrollingPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollingPageControl-Info.plist"; sourceTree = "<group>"; };
 		A3F99DDCAFD8D64D960D487CF303E40C /* ScrollingPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollingPageControl.xcconfig; sourceTree = "<group>"; };
 		A5FF98A36A906280C7E9BD25678B377A /* ScrollingPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingPageControl.swift; path = Sources/ScrollingPageControl/ScrollingPageControl.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		DFD6D6A325C4E4C6551A95A5BE646222 /* Pods-ScrollingPageControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollingPageControl_Example-dummy.m"; sourceTree = "<group>"; };
 		E9D9FFD76ED01A06BD827FD79194CA98 /* Pods-ScrollingPageControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollingPageControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F0A2759DB28F795E97D9EA8FD336C28B /* Pods-ScrollingPageControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollingPageControl_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F2194712E2AF20EEE535914C01C3BBF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F2194712E2AF20EEE535914C01C3BBF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +329,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 802EC2A5797039A011B6ECAD67DE2508 /* Products */;
@@ -630,8 +631,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

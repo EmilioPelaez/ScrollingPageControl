@@ -52,21 +52,24 @@ open class ScrollingPageControl: UIView {
 			maxDots = max(3, maxDots)
 			if maxDots % 2 == 0 {
 				maxDots += 1
-				print("maxPages has to be an odd number")
+				print("maxDots has to be an odd number")
 			}
 			invalidateIntrinsicContentSize()
-			updatePositions()
 		}
 	}
 	//	The number of dots that will be centered and full-sized
 	open var centerDots = 3 {
 		didSet {
 			centerDots = max(1, centerDots)
+			if centerDots > maxDots {
+				centerDots = maxDots
+				print("centerDots has to be equal or smaller than maxDots")
+			}
 			if centerDots % 2 == 0 {
 				centerDots += 1
 				print("centerDots has to be an odd number")
 			}
-			updatePositions()
+			invalidateIntrinsicContentSize()
 		}
 	}
 	//	The duration, in seconds, of the dot slide animation
@@ -78,12 +81,12 @@ open class ScrollingPageControl: UIView {
 		}
 	}
 	
-	private var dotViews: [UIView] = [] {
+	internal var dotViews: [UIView] = [] {
 		didSet {
 			oldValue.forEach { $0.removeFromSuperview() }
 			dotViews.forEach(addSubview)
 			updateColors()
-			updatePositions()
+			setNeedsLayout()
 		}
 	}
 	
@@ -97,14 +100,14 @@ open class ScrollingPageControl: UIView {
 		didSet {
 			dotSize = max(1, dotSize)
 			dotViews.forEach { $0.frame = CGRect(origin: .zero, size: CGSize(width: dotSize, height: dotSize)) }
-			updatePositions()
+			invalidateIntrinsicContentSize()
 		}
 	}
 	//	The space between dots
 	open var spacing: CGFloat = 4 {
 		didSet {
 			spacing = max(1, spacing)
-			updatePositions()
+			invalidateIntrinsicContentSize()
 		}
 	}
 	
@@ -136,7 +139,9 @@ open class ScrollingPageControl: UIView {
 		}
 	}
 	
-	private func updatePositions() {
+	internal func updatePositions() {
+		let centerDots = min(self.centerDots, pages)
+		let maxDots = min(self.maxDots, pages)
 		let sidePages = (maxDots - centerDots) / 2
 		let horizontalOffset = CGFloat(-pageOffset + sidePages) * (dotSize + spacing) + (bounds.width - intrinsicContentSize.width) / 2
 		let centerPage = centerDots / 2 + pageOffset

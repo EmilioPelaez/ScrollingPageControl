@@ -1,28 +1,35 @@
 import XCTest
-import ScrollingPageControl
+@testable import ScrollingPageControl
 
 class Tests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+	
+	func testLayout() {
+		(1..<10).forEach { a in
+			(1..<10).forEach { b in
+				(1..<10).forEach { c in
+					evaluatePageControl(pages: a, centerDots: b, maxDots: c)
+				}
+			}
+		}
+	}
+	
+	func evaluatePageControl(pages: Int, centerDots: Int, maxDots: Int) {
+		let pageControl = ScrollingPageControl()
+		pageControl.pages = pages
+		pageControl.centerDots = centerDots
+		pageControl.maxDots = maxDots
+		
+		pageControl.frame = CGRect(origin: .zero, size: pageControl.intrinsicContentSize)
+		pageControl.updatePositions()
+		
+		XCTAssertGreaterThanOrEqual(pageControl.bounds.width, CGFloat(min(pageControl.pages, pageControl.maxDots)) * pageControl.dotSize)
+		XCTAssertEqual(pageControl.dotViews.count, pageControl.pages)
+		
+		let fullSizeDots = pageControl.dotViews.filter { $0.frame.width == pageControl.dotSize }.count
+		XCTAssertLessThanOrEqual(fullSizeDots, pageControl.centerDots)
+		
+		let visibleDots = pageControl.dotViews.filter { pageControl.bounds.contains($0.frame) }.count
+		XCTAssertLessThanOrEqual(visibleDots, max(pageControl.maxDots, pageControl.pages))
+	}
+	
 }
